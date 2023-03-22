@@ -155,9 +155,7 @@ body {
 }
 
 .main {
-  width: 100%;
   height: 85vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,26 +163,25 @@ body {
 
 .contenedor-central {
   width: 1111px;
-  height: 445px;
   background-color: hsl(244, 38%, 16%);
   border-radius: 12px;
-
   display: flex;
 }
 
 .contenedor-izquierdo,
 .contenedor-derecho {
   width: 50%;
-  height: 100%;
 }
 
 .img {
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
 }
 .contenedor-derecho {
-  background-color: hsla(278, 82%, 30%, 0.552);
+  background-color:hsl(277, 64%, 61%);
 }
 
 .contenedor-derecho,
@@ -193,12 +190,12 @@ body {
 }
 
 .contenedor-izquierdo {
-  padding: 60px;
+  padding: 6em;
   border-radius: 12px 0 0 12px;
 }
 
 .titulo {
-  font-size: 38px;
+  font-size: 2rem;
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
